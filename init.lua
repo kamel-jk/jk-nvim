@@ -1,0 +1,5 @@
+require('config')
+require('plugin')
+require('ts-lsp')
+require('theme')
+require('auto-cmp')
