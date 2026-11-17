@@ -24,20 +24,27 @@ l['luals'] = {
 }
 e('luals')
 
+-- Python
 l['pyls'] = {
-    -- Python
     cmd         = { 'pyright-langserver', '--stdio' },
     filetypes    = { 'python' },
     root_markers = { 'pyproject.toml', 'requirements.txt', 'main.py', '.git' },
 }
 e('pyls')
 
+-- C
 l['clang'] = {
-    -- Python
     cmd         = { 'clangd' },
     filetypes    = { 'c' },
     root_markers = { 'main.c', '.git' },
 }
 e('clang')
 
+-- Markdown
 
+l['markdown'] = {
+    cmd         = { 'marksman', 'server' },
+    filetypes = { "markdown", "markdown.mdx" },
+    root_markers = { ".marksman.toml", ".obsidian", ".git" },
+}
+e('markdown')

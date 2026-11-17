@@ -24,3 +24,9 @@ p({
 p({
   { src = "https://github.com/romus204/tree-sitter-manager.nvim" }
 })
+
+-- Markdown
+p({
+    { src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim' },
+})
+require('plugins.markdown')
