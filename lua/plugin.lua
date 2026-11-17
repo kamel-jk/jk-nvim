@@ -30,3 +30,7 @@ p({
     { src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim' },
 })
 require('plugins.markdown')
+p({
+    { src = 'https://github.com/brenoprata10/nvim-highlight-colors' }
+})
+require('plugins.hl-colors')
